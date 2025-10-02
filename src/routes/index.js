@@ -2,12 +2,13 @@ const express = require('express');
 
 const router = express.Router();
 
+router.get('/', (req, res) => {
+  res.status(401).send('Unauthorized');
+
+});
 router.get('/api', (req, res) => {
-  res.status(200).send({
-    success: 'true',
-    message: 'STAC ONLINE PROCESSING API',
-    version: '1.0.0',
-  });
+  res.status(401).send('Unauthorized');
+
 });
 
 module.exports = router;

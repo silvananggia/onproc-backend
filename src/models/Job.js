@@ -9,20 +9,20 @@ async function findJobId(id) {
   return job;
 }
 
-async function createJob({ jobId, userId,jobname, command, cpuRequired, priority }) {
+async function createJob({ jobId, username,jobname, command, cpuRequired, priority }) {
   try {
    // const jobId = uuidv4(); // Generate job ID
 
 
     const [job] = await db('jobs').insert({
       id: jobId,
-      user_id: userId,
+      username: username,
       job_name: jobname,
       command : command, // The HTTP GET command to execute the Flask API
       status: 'queued', // Default status
       cpu_required: cpuRequired,
       priority,
-    }).returning(['id', 'user_id', 'job_name', 'status', 'cpu_required', 'priority']);
+    }).returning(['id', 'username', 'job_name', 'status', 'cpu_required', 'priority']);
     
     return job;
   } catch (error) {
@@ -44,9 +44,9 @@ async function getJobById(id) {
   return job;
 }
 
-async function getAllJobsByUser(userId) {
+async function getAllJobsByUser(username) {
   const jobs = await db('jobs')
-    .where({ user_id: userId })
+    .where({ username: username })
     .orderBy('created_at', 'desc'); // Sort by created_at from newest to oldest
   return jobs;
 }

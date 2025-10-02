@@ -11,3 +11,12 @@ services:
       - .:/usr/src/app
     environment:
       NODE_ENV: development
+    container_name: onproc-backend
+    networks:
+      gisnet:
+        aliases:
+          - backend.gisnet
+
+networks:
+  gisnet:
+    external: true

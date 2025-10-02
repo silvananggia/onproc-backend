@@ -1,5 +1,8 @@
 # Use the official Node.js image
-FROM node:14
+FROM node:18
+
+# Install PostgreSQL client
+RUN apt-get update && apt-get install -y postgresql-client
 
 # Set the working directory
 WORKDIR /usr/src/app

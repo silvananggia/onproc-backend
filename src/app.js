@@ -3,12 +3,14 @@ require("dotenv").config();
 const cors = require("cors");
 const session = require("express-session");
 const passport = require('passport');
+const axios = require('axios');
 
 // Routes
 const index = require("./routes/index");
 const authRoute = require("./routes/auth.routes");
 const restrictedRoutes = require('./routes/restricted');
 const jobsRoutes = require('./routes/jobs.routes');
+const informationRoutes = require('./routes/information.routes');
 
 const app = express();
 
@@ -33,11 +35,13 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
+
+
 // Routes
 app.use('/api', authRoute);
 app.use('/api', restrictedRoutes);
 app.use('/api', jobsRoutes);
-
+app.use('/api', informationRoutes);
 // Catch-all route for index
 app.use('/', index);
 

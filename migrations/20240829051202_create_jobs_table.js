@@ -5,7 +5,7 @@
 exports.up = function(knex) {
     return knex.schema.createTable('jobs', function(table) {
       table.uuid('id').primary(); // Auto-incrementing ID
-      table.uuid('user_id').notNullable().references('id').inTable('users'); // Foreign key to the users table
+      table.string('username').notNullable(); // Foreign key to the users table
       table.string('job_name').notNullable(); // Name of the job
       table.text('command').notNullable(); // Command to be executed
       table.string('status').notNullable().defaultTo('queued'); // Job status
