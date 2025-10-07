@@ -60,10 +60,17 @@ async function getJobById(id) {
 }
 
 async function getAllJobsByUser(username) {
-  const jobs = await db('jobs')
-    .where({ username: username })
-    .orderBy('created_at', 'desc'); // Sort by created_at from newest to oldest
-  return jobs;
+  try {
+    console.log('📡 Backend: Querying jobs for username:', username);
+    const jobs = await db('jobs')
+      .where({ username: username })
+      .orderBy('created_at', 'desc'); // Sort by created_at from newest to oldest
+    console.log('📡 Backend: Query result:', jobs.length, 'jobs found');
+    return jobs;
+  } catch (error) {
+    console.error('❌ Backend: Database error in getAllJobsByUser:', error);
+    throw error;
+  }
 }
 
 async function updateJobStatus(jobId, status, progress = null) {

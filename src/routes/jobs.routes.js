@@ -31,10 +31,16 @@ router.get('/jobs/:id',authorizeRole(['public', 'admin']), async (req, res) => {
 // Route to get all jobs by user
 router.get('/jobs/user/:username',authorizeRole(['public', 'admin']), async (req, res) => {
   try {
+    console.log('📡 Backend: Getting jobs for user:', req.params.username);
     const jobs = await getAllJobsByUser(req.params.username);
+    console.log('📡 Backend: Found jobs:', jobs.length);
     res.status(200).json(jobs); // Respond with the list of jobs
   } catch (error) {
-    res.status(500).json({ error: 'Failed to retrieve jobs' });
+    console.error('❌ Backend: Error retrieving jobs:', error);
+    res.status(500).json({ 
+      error: 'Failed to retrieve jobs',
+      details: error.message 
+    });
   }
 });
 

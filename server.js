@@ -10,7 +10,7 @@ const server = createServer(app);
 
 // Initialize Socket.IO
 const io = new Server(server, {
-  path: '/be/socket.io/', // ✅ penting untuk match dengan nginx reverse proxy
+  path: '/be/socket.io/', // Socket.IO path to match nginx proxy
   cors: {
     origin: "*", // ubah ke domain frontend kamu kalau perlu security lebih ketat
     methods: ["GET", "POST"],
@@ -23,7 +23,9 @@ app.set('io', io);
 
 // Socket.IO connection handling
 io.on('connection', (socket) => {
-  console.log('Client connected:', socket.id);
+  console.log('✅ Client connected:', socket.id);
+  console.log('✅ Client namespace:', socket.nsp.name);
+  console.log('✅ Client transport:', socket.conn.transport.name);
 
   // Join job-specific room for real-time updates
   socket.on('join-job', (jobId) => {
@@ -37,8 +39,13 @@ io.on('connection', (socket) => {
     console.log(`Client ${socket.id} left job room: job-${jobId}`);
   });
 
-  socket.on('disconnect', () => {
-    console.log('Client disconnected:', socket.id);
+  socket.on('disconnect', (reason) => {
+    console.log('❌ Client disconnected:', socket.id, 'reason:', reason);
+  });
+
+  // Add error handling
+  socket.on('error', (error) => {
+    console.error('❌ Socket error:', error);
   });
 });
 
