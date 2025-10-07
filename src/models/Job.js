@@ -9,10 +9,14 @@ async function findJobId(id) {
   return job;
 }
 
-async function createJob({ jobId, username,jobname, command, cpuRequired, priority }) {
+async function createJob({ jobId, username, jobname, command, cpuRequired, priority, timeStart, timeFinish }) {
   try {
    // const jobId = uuidv4(); // Generate job ID
 
+    console.log('🕐 Backend: Creating job with timestamps:');
+    console.log('  - Job ID:', jobId);
+    console.log('  - Time Start:', timeStart);
+    console.log('  - Time Finish:', timeFinish);
 
     const [job] = await db('jobs').insert({
       id: jobId,
@@ -22,7 +26,9 @@ async function createJob({ jobId, username,jobname, command, cpuRequired, priori
       status: 'queued', // Default status
       cpu_required: cpuRequired,
       priority,
-    }).returning(['id', 'username', 'job_name', 'status', 'cpu_required', 'priority']);
+      time_start: timeStart,
+      time_finish: timeFinish,
+    }).returning(['id', 'username', 'job_name', 'status', 'cpu_required', 'priority', 'time_start', 'time_finish']);
     
     return job;
   } catch (error) {
@@ -32,16 +38,25 @@ async function createJob({ jobId, username,jobname, command, cpuRequired, priori
 }
 
 async function getJobById(id) {
+  // First get the job data
   const job = await db('jobs')
-    .leftJoin('results', 'jobs.id', 'results.jobid') // Change to left join
-    .where({ 'jobs.id': id }) // Specify the job ID
-    .select('jobs.*', 'results.*') // Select fields from both tables
+    .where({ id })
     .first();
   
   if (!job) {
     return { message: 'Job not found' }; // Return message if job does not exist
   }
-  return job;
+
+  // Then get the results for this job
+  const results = await db('results')
+    .where({ jobid: id })
+    .select('*');
+
+  // Combine job data with results
+  return {
+    ...job,
+    results: results
+  };
 }
 
 async function getAllJobsByUser(username) {
@@ -51,9 +66,35 @@ async function getAllJobsByUser(username) {
   return jobs;
 }
 
+async function updateJobStatus(jobId, status, progress = null) {
+  try {
+    const updateData = { status };
+    if (progress !== null) {
+      updateData.progress = progress;
+    }
+    
+    // Set time_finish when job completes
+    if (status === 'finished' || status === 'failed') {
+      updateData.time_finish = new Date().toISOString();
+      console.log('🕐 Backend: Job completed, setting time_finish:', updateData.time_finish);
+    }
+    
+    const [updatedJob] = await db('jobs')
+      .where({ id: jobId })
+      .update(updateData)
+      .returning('*');
+    
+    return updatedJob;
+  } catch (error) {
+    console.error('Error updating job status:', error);
+    throw error;
+  }
+}
+
 module.exports = {
   findJobId,
   createJob,
   getJobById, 
   getAllJobsByUser,
+  updateJobStatus,
 };

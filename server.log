@@ -1,0 +1,433 @@
+Server is running on  9001
+Client connected: YskW_dntkn0xKovNAAAB
+Client YskW_dntkn0xKovNAAAB left job room: job-38475fe2-4c41-4440-b26e-72b820900ada
+Client connected: q_uSyqm2bU8spLZ-AAAD
+Client q_uSyqm2bU8spLZ-AAAD left job room: job-38475fe2-4c41-4440-b26e-72b820900ada
+Client connected: cRCiBFoq5VuiyMzjAAAF
+Client cRCiBFoq5VuiyMzjAAAF left job room: job-38475fe2-4c41-4440-b26e-72b820900ada
+Client cRCiBFoq5VuiyMzjAAAF joined job room: job-6a8c55f5-484d-4bd7-899f-be2ebc509ffc
+{
+  success: true,
+  userData: {
+    ref: '1576d26b-81c8-4bb6-9188-d3eac93d6ec0',
+    username: 'silv007',
+    external_email: 'silvananggia@gmail.com',
+    email: 'silvan.anggia.bayu.setia.permana@brin.go.id',
+    identity_number: null,
+    resident_address: null,
+    phone: '081912191054',
+    identity_type: '1',
+    sex: null,
+    photo_url: 'https://intra.brin.go.id/api/user/foto?usernameintra=silv007',
+    first_name: 'Silvan Anggia Bayu Setia Permana',
+    last_name: null,
+    active: 1,
+    external_account: 0,
+    avatar_url: 'https://api2.brin.go.id/sso/user/avatar/1576d26b-81c8-4bb6-9188-d3eac93d6ec0'
+  },
+  pegawaiData: {
+    name: 'Silvan Anggia Bayu Setia Permana',
+    back_academic_title: 'S.Kom.',
+    front_academic_title: '',
+    simpeg_peg_id: 11613,
+    affiliate_unit: '4596',
+    administrative_unit: '4595',
+    affiliate_unit_id: 4596,
+    administrative_unit_id: 4595,
+    affiliate_name: 'Kelompok Kegiatan Riset Geoinformatika',
+    administrative_name: 'Pusat Riset Geoinformatika',
+    eselon_parent: '1,3044,4595,4596',
+    entrance_date: '2019-02-01',
+    birth_date: '1993-10-02',
+    sex: null,
+    terminated_date: null,
+    nip: '199310022019021001',
+    id: 11613,
+    username_intra: 'silv007',
+    rw_golongan_id: null,
+    status_pegawai: 1,
+    rw_mutasi_id: null,
+    rw_pendidikan_id: null,
+    hobby: null,
+    bidang_penelitian: null,
+    resident_address: 'KP. GADOG RT. 001 RW. 009 KEL. CIPENDAWA KEC. PACET CIANJUR JAWA BARAT 43253',
+    resident_province: null,
+    resident_regency: null,
+    residentregencytext: null,
+    resident_zipcode: null,
+    resident_telephone_number: '087768787557',
+    resident_telephone_mobile: '081912191054',
+    office_address: null,
+    office_zipcode: null,
+    email_address: 'silv007@brin.go.id',
+    email_corporate: 'silvan.anggia.bayu.setia.permana@brin.go.id',
+    email_private: 'silvananggia@gmail.com',
+    remember_token: null,
+    religion_id: 1,
+    active: true,
+    bidang_penelitian_id: null,
+    user_sso_id: null,
+    entrance_date_institution: '2019-02-01',
+    username_sso: null,
+    daring: null,
+    kegiatan: null,
+    pengalaman: null,
+    kemampuan_bahasa: null,
+    ktp_number: '3203280210930003',
+    foto: 'https://intra.brin.go.id/api/user/foto?usernameintra=silv007'
+  }
+}
+Role API error, defaulting to public role: Request failed with status code 404
+Client connected: v-UweKKPIqL8PHCgAAAH
+Client disconnected: YskW_dntkn0xKovNAAAB
+Client disconnected: q_uSyqm2bU8spLZ-AAAD
+Client disconnected: cRCiBFoq5VuiyMzjAAAF
+Client v-UweKKPIqL8PHCgAAAH left job room: job-d0b814f1-2a22-4db7-ba00-2db8c13cbb34
+Client v-UweKKPIqL8PHCgAAAH joined job room: job-2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+📡 Backend: Internal update received for job: 2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+📡 Backend: Status: running Progress: 25
+📡 Backend: Sending WebSocket update to room job-2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+📡 Backend: Update data: {
+  jobId: '2c1ffcda-9288-49eb-b2ed-62e3941c5f2d',
+  status: 'running',
+  progress: 25,
+  updatedAt: '2025-10-02T09:45:05.612Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: 2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+📡 Backend: Status: running Progress: 50
+📡 Backend: Sending WebSocket update to room job-2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+📡 Backend: Update data: {
+  jobId: '2c1ffcda-9288-49eb-b2ed-62e3941c5f2d',
+  status: 'running',
+  progress: 50,
+  updatedAt: '2025-10-02T09:45:07.625Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: 2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+📡 Backend: Status: running Progress: 75
+📡 Backend: Sending WebSocket update to room job-2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+📡 Backend: Update data: {
+  jobId: '2c1ffcda-9288-49eb-b2ed-62e3941c5f2d',
+  status: 'running',
+  progress: 75,
+  updatedAt: '2025-10-02T09:45:09.638Z'
+}
+📡 Backend: WebSocket update sent successfully
+Client connected: YVX2YAcnHTbKMw7hAAAJ
+Client YVX2YAcnHTbKMw7hAAAJ joined job room: job-6a8c55f5-484d-4bd7-899f-be2ebc509ffc
+📡 Backend: Internal update received for job: 2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+📡 Backend: Status: running Progress: 100
+📡 Backend: Sending WebSocket update to room job-2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+📡 Backend: Update data: {
+  jobId: '2c1ffcda-9288-49eb-b2ed-62e3941c5f2d',
+  status: 'running',
+  progress: 100,
+  updatedAt: '2025-10-02T09:45:11.649Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: 2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+📡 Backend: Status: finished Progress: 100
+📡 Backend: Sending WebSocket update to room job-2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+📡 Backend: Update data: {
+  jobId: '2c1ffcda-9288-49eb-b2ed-62e3941c5f2d',
+  status: 'finished',
+  progress: 100,
+  updatedAt: '2025-10-02T09:45:11.662Z'
+}
+📡 Backend: WebSocket update sent successfully
+Client v-UweKKPIqL8PHCgAAAH left job room: job-2c1ffcda-9288-49eb-b2ed-62e3941c5f2d
+Client v-UweKKPIqL8PHCgAAAH joined job room: job-71d51f91-5c64-406e-8952-468392cc4389
+📡 Backend: Internal update received for job: 71d51f91-5c64-406e-8952-468392cc4389
+📡 Backend: Status: running Progress: 25
+📡 Backend: Sending WebSocket update to room job-71d51f91-5c64-406e-8952-468392cc4389
+📡 Backend: Update data: {
+  jobId: '71d51f91-5c64-406e-8952-468392cc4389',
+  status: 'running',
+  progress: 25,
+  updatedAt: '2025-10-02T09:45:30.652Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: 71d51f91-5c64-406e-8952-468392cc4389
+📡 Backend: Status: running Progress: 50
+📡 Backend: Sending WebSocket update to room job-71d51f91-5c64-406e-8952-468392cc4389
+📡 Backend: Update data: {
+  jobId: '71d51f91-5c64-406e-8952-468392cc4389',
+  status: 'running',
+  progress: 50,
+  updatedAt: '2025-10-02T09:45:32.665Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: 71d51f91-5c64-406e-8952-468392cc4389
+📡 Backend: Status: running Progress: 75
+📡 Backend: Sending WebSocket update to room job-71d51f91-5c64-406e-8952-468392cc4389
+📡 Backend: Update data: {
+  jobId: '71d51f91-5c64-406e-8952-468392cc4389',
+  status: 'running',
+  progress: 75,
+  updatedAt: '2025-10-02T09:45:34.678Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: 71d51f91-5c64-406e-8952-468392cc4389
+📡 Backend: Status: running Progress: 100
+📡 Backend: Sending WebSocket update to room job-71d51f91-5c64-406e-8952-468392cc4389
+📡 Backend: Update data: {
+  jobId: '71d51f91-5c64-406e-8952-468392cc4389',
+  status: 'running',
+  progress: 100,
+  updatedAt: '2025-10-02T09:45:36.691Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: 71d51f91-5c64-406e-8952-468392cc4389
+📡 Backend: Status: finished Progress: 100
+📡 Backend: Sending WebSocket update to room job-71d51f91-5c64-406e-8952-468392cc4389
+📡 Backend: Update data: {
+  jobId: '71d51f91-5c64-406e-8952-468392cc4389',
+  status: 'finished',
+  progress: 100,
+  updatedAt: '2025-10-02T09:45:36.703Z'
+}
+📡 Backend: WebSocket update sent successfully
+Client disconnected: YVX2YAcnHTbKMw7hAAAJ
+Client v-UweKKPIqL8PHCgAAAH left job room: job-71d51f91-5c64-406e-8952-468392cc4389
+Client v-UweKKPIqL8PHCgAAAH joined job room: job-d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+📡 Backend: Internal update received for job: d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+📡 Backend: Status: running Progress: 25
+📡 Backend: Sending WebSocket update to room job-d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+📡 Backend: Update data: {
+  jobId: 'd9b332c6-87b2-4fc1-98d2-0dd79935fc55',
+  status: 'running',
+  progress: 25,
+  updatedAt: '2025-10-02T09:49:30.975Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+📡 Backend: Status: running Progress: 50
+📡 Backend: Sending WebSocket update to room job-d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+📡 Backend: Update data: {
+  jobId: 'd9b332c6-87b2-4fc1-98d2-0dd79935fc55',
+  status: 'running',
+  progress: 50,
+  updatedAt: '2025-10-02T09:49:33.002Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+📡 Backend: Status: running Progress: 75
+📡 Backend: Sending WebSocket update to room job-d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+📡 Backend: Update data: {
+  jobId: 'd9b332c6-87b2-4fc1-98d2-0dd79935fc55',
+  status: 'running',
+  progress: 75,
+  updatedAt: '2025-10-02T09:49:35.029Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+📡 Backend: Status: running Progress: 100
+📡 Backend: Sending WebSocket update to room job-d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+📡 Backend: Update data: {
+  jobId: 'd9b332c6-87b2-4fc1-98d2-0dd79935fc55',
+  status: 'running',
+  progress: 100,
+  updatedAt: '2025-10-02T09:49:37.054Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+📡 Backend: Status: finished Progress: 100
+📡 Backend: Sending WebSocket update to room job-d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+📡 Backend: Update data: {
+  jobId: 'd9b332c6-87b2-4fc1-98d2-0dd79935fc55',
+  status: 'finished',
+  progress: 100,
+  updatedAt: '2025-10-02T09:49:37.078Z'
+}
+📡 Backend: WebSocket update sent successfully
+Client v-UweKKPIqL8PHCgAAAH left job room: job-d9b332c6-87b2-4fc1-98d2-0dd79935fc55
+Client v-UweKKPIqL8PHCgAAAH joined job room: job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+📡 Backend: Internal update received for job: f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+📡 Backend: Status: running Progress: 25
+📡 Backend: Sending WebSocket update to room job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+📡 Backend: Update data: {
+  jobId: 'f0a2d9f1-f725-4ebb-9dab-e8f075426f24',
+  status: 'running',
+  progress: 25,
+  updatedAt: '2025-10-02T09:51:06.117Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+📡 Backend: Status: running Progress: 50
+📡 Backend: Sending WebSocket update to room job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+📡 Backend: Update data: {
+  jobId: 'f0a2d9f1-f725-4ebb-9dab-e8f075426f24',
+  status: 'running',
+  progress: 50,
+  updatedAt: '2025-10-02T09:51:08.141Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+📡 Backend: Status: running Progress: 75
+📡 Backend: Sending WebSocket update to room job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+📡 Backend: Update data: {
+  jobId: 'f0a2d9f1-f725-4ebb-9dab-e8f075426f24',
+  status: 'running',
+  progress: 75,
+  updatedAt: '2025-10-02T09:51:10.167Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+📡 Backend: Status: running Progress: 100
+📡 Backend: Sending WebSocket update to room job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+📡 Backend: Update data: {
+  jobId: 'f0a2d9f1-f725-4ebb-9dab-e8f075426f24',
+  status: 'running',
+  progress: 100,
+  updatedAt: '2025-10-02T09:51:12.191Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+📡 Backend: Status: finished Progress: 100
+📡 Backend: Sending WebSocket update to room job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+📡 Backend: Update data: {
+  jobId: 'f0a2d9f1-f725-4ebb-9dab-e8f075426f24',
+  status: 'finished',
+  progress: 100,
+  updatedAt: '2025-10-02T09:51:12.216Z'
+}
+📡 Backend: WebSocket update sent successfully
+Client v-UweKKPIqL8PHCgAAAH left job room: job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+Client disconnected: v-UweKKPIqL8PHCgAAAH
+Client connected: JBEetW0d-87wxKcIAAAL
+Client JBEetW0d-87wxKcIAAAL left job room: job-556aa991-1983-4e88-9fc9-802b1ccf5a2c
+Client JBEetW0d-87wxKcIAAAL joined job room: job-556aa991-1983-4e88-9fc9-802b1ccf5a2c
+Client JBEetW0d-87wxKcIAAAL left job room: job-556aa991-1983-4e88-9fc9-802b1ccf5a2c
+Client disconnected: JBEetW0d-87wxKcIAAAL
+{
+  success: true,
+  userData: {
+    ref: '1576d26b-81c8-4bb6-9188-d3eac93d6ec0',
+    username: 'silv007',
+    external_email: 'silvananggia@gmail.com',
+    email: 'silvan.anggia.bayu.setia.permana@brin.go.id',
+    identity_number: null,
+    resident_address: null,
+    phone: '081912191054',
+    identity_type: '1',
+    sex: null,
+    photo_url: 'https://intra.brin.go.id/api/user/foto?usernameintra=silv007',
+    first_name: 'Silvan Anggia Bayu Setia Permana',
+    last_name: null,
+    active: 1,
+    external_account: 0,
+    avatar_url: 'https://api2.brin.go.id/sso/user/avatar/1576d26b-81c8-4bb6-9188-d3eac93d6ec0'
+  },
+  pegawaiData: {
+    name: 'Silvan Anggia Bayu Setia Permana',
+    back_academic_title: 'S.Kom.',
+    front_academic_title: '',
+    simpeg_peg_id: 11613,
+    affiliate_unit: '4596',
+    administrative_unit: '4595',
+    affiliate_unit_id: 4596,
+    administrative_unit_id: 4595,
+    affiliate_name: 'Kelompok Kegiatan Riset Geoinformatika',
+    administrative_name: 'Pusat Riset Geoinformatika',
+    eselon_parent: '1,3044,4595,4596',
+    entrance_date: '2019-02-01',
+    birth_date: '1993-10-02',
+    sex: null,
+    terminated_date: null,
+    nip: '199310022019021001',
+    id: 11613,
+    username_intra: 'silv007',
+    rw_golongan_id: null,
+    status_pegawai: 1,
+    rw_mutasi_id: null,
+    rw_pendidikan_id: null,
+    hobby: null,
+    bidang_penelitian: null,
+    resident_address: 'KP. GADOG RT. 001 RW. 009 KEL. CIPENDAWA KEC. PACET CIANJUR JAWA BARAT 43253',
+    resident_province: null,
+    resident_regency: null,
+    residentregencytext: null,
+    resident_zipcode: null,
+    resident_telephone_number: '087768787557',
+    resident_telephone_mobile: '081912191054',
+    office_address: null,
+    office_zipcode: null,
+    email_address: 'silv007@brin.go.id',
+    email_corporate: 'silvan.anggia.bayu.setia.permana@brin.go.id',
+    email_private: 'silvananggia@gmail.com',
+    remember_token: null,
+    religion_id: 1,
+    active: true,
+    bidang_penelitian_id: null,
+    user_sso_id: null,
+    entrance_date_institution: '2019-02-01',
+    username_sso: null,
+    daring: null,
+    kegiatan: null,
+    pengalaman: null,
+    kemampuan_bahasa: null,
+    ktp_number: '3203280210930003',
+    foto: 'https://intra.brin.go.id/api/user/foto?usernameintra=silv007'
+  }
+}
+Role API error, defaulting to public role: Request failed with status code 404
+Client connected: PTMMGAkwNQDbLgL_AAAN
+Client PTMMGAkwNQDbLgL_AAAN left job room: job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+Client PTMMGAkwNQDbLgL_AAAN joined job room: job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+Client PTMMGAkwNQDbLgL_AAAN left job room: job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+Client PTMMGAkwNQDbLgL_AAAN joined job room: job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+Client PTMMGAkwNQDbLgL_AAAN left job room: job-f0a2d9f1-f725-4ebb-9dab-e8f075426f24
+Client PTMMGAkwNQDbLgL_AAAN joined job room: job-eb07f426-cbb8-462d-8158-972f5ddad361
+📡 Backend: Internal update received for job: eb07f426-cbb8-462d-8158-972f5ddad361
+📡 Backend: Status: running Progress: 25
+📡 Backend: Sending WebSocket update to room job-eb07f426-cbb8-462d-8158-972f5ddad361
+📡 Backend: Update data: {
+  jobId: 'eb07f426-cbb8-462d-8158-972f5ddad361',
+  status: 'running',
+  progress: 25,
+  updatedAt: '2025-10-02T10:35:53.212Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: eb07f426-cbb8-462d-8158-972f5ddad361
+📡 Backend: Status: running Progress: 50
+📡 Backend: Sending WebSocket update to room job-eb07f426-cbb8-462d-8158-972f5ddad361
+📡 Backend: Update data: {
+  jobId: 'eb07f426-cbb8-462d-8158-972f5ddad361',
+  status: 'running',
+  progress: 50,
+  updatedAt: '2025-10-02T10:35:55.236Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: eb07f426-cbb8-462d-8158-972f5ddad361
+📡 Backend: Status: running Progress: 75
+📡 Backend: Sending WebSocket update to room job-eb07f426-cbb8-462d-8158-972f5ddad361
+📡 Backend: Update data: {
+  jobId: 'eb07f426-cbb8-462d-8158-972f5ddad361',
+  status: 'running',
+  progress: 75,
+  updatedAt: '2025-10-02T10:35:57.263Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: eb07f426-cbb8-462d-8158-972f5ddad361
+📡 Backend: Status: running Progress: 100
+📡 Backend: Sending WebSocket update to room job-eb07f426-cbb8-462d-8158-972f5ddad361
+📡 Backend: Update data: {
+  jobId: 'eb07f426-cbb8-462d-8158-972f5ddad361',
+  status: 'running',
+  progress: 100,
+  updatedAt: '2025-10-02T10:35:59.291Z'
+}
+📡 Backend: WebSocket update sent successfully
+📡 Backend: Internal update received for job: eb07f426-cbb8-462d-8158-972f5ddad361
+📡 Backend: Status: finished Progress: 100
+📡 Backend: Sending WebSocket update to room job-eb07f426-cbb8-462d-8158-972f5ddad361
+📡 Backend: Update data: {
+  jobId: 'eb07f426-cbb8-462d-8158-972f5ddad361',
+  status: 'finished',
+  progress: 100,
+  updatedAt: '2025-10-02T10:35:59.315Z'
+}
+📡 Backend: WebSocket update sent successfully
+Client PTMMGAkwNQDbLgL_AAAN left job room: job-eb07f426-cbb8-462d-8158-972f5ddad361
+Client disconnected: PTMMGAkwNQDbLgL_AAAN
