@@ -7,10 +7,12 @@ const port = process.env.PORT || 9000;
 // Create HTTP server
 const server = createServer(app);
 
+
 // Initialize Socket.IO
 const io = new Server(server, {
+  path: '/be/socket.io/', // ✅ penting untuk match dengan nginx reverse proxy
   cors: {
-    origin: "*",
+    origin: "*", // ubah ke domain frontend kamu kalau perlu security lebih ketat
     methods: ["GET", "POST"],
     credentials: true
   }
