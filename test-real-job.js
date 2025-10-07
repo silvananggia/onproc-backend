@@ -10,7 +10,7 @@ async function testRealJob() {
   
   // Step 1: Connect to WebSocket
   console.log('1. Connecting to WebSocket...');
-  const socket = io('http://localhost:9001', {
+  const socket = io('https://geomimo-prototype.brin.go.id/be', {
     transports: ['websocket', 'polling'],
     autoConnect: true,
   });
@@ -31,7 +31,7 @@ async function testRealJob() {
     
     // Step 4: Manually trigger a job update to test the flow
     console.log('4. Testing manual job update...');
-    const backendUrl = 'http://localhost:9001';
+    const backendUrl = 'https://geomimo-prototype.brin.go.id/be';
     
     try {
       // Test with a manual update

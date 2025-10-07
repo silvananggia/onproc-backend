@@ -9,7 +9,7 @@ async function testWebSocketUpdates() {
   
   // Connect to WebSocket
   console.log('1. Connecting to WebSocket...');
-  const socket = io('http://localhost:9001', {
+  const socket = io('https://geomimo-prototype.brin.go.id/be', {
     transports: ['websocket', 'polling'],
     autoConnect: true,
   });

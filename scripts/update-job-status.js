@@ -6,7 +6,7 @@ const axios = require('axios');
  */
 async function updateJobStatus(jobId, status, progress = null) {
   try {
-    const backendUrl = process.env.BACKEND_URL || 'http://localhost:9001';
+    const backendUrl = process.env.BACKEND_URL || 'https://geomimo-prototype.brin.go.id/be';
     
     const response = await axios.put(`${backendUrl}/api/jobs/${jobId}/status`, {
       status,

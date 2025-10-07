@@ -3,7 +3,7 @@ const axios = require('axios');
 async function testJobUpdate() {
   try {
     const jobId = '6f82af4e-e435-46b3-a67f-41fb1f03e3e6';
-    const backendUrl = 'http://localhost:9001';
+    const backendUrl = 'https://geomimo-prototype.brin.go.id/be';
     
     console.log(`Testing job update for job ID: ${jobId}`);
     

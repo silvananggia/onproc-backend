@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // Configuration
-const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:9001';
+const BACKEND_URL = process.env.BACKEND_URL || 'https://geomimo-prototype.brin.go.id/be';
 const JOB_ID = process.argv[2]; // Get job ID from command line argument
 
 if (!JOB_ID) {
